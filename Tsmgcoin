@@ -1,0 +1,80 @@
+### Hi there 👋
+
+TSMGCOIN WORK
+is an infrastructure that offers a set of standards and solutions for physical and digital consumer goods to promote transparency, circularity, and new forms of responsible production and consumption. TSMGCOIN is the next creative project of ERC-20 and a network dedicated to taking blockchain beyond DeFi.
+TSMGCOİN WORK token (TSMG) is an TRC-20 asset that empowers community governance of the Project. Holders of tokens will be able to debate, propose, and vote on all changes to the Support of this standard guarantees the compatibility of the token with third-party services (wallets, exchanges, listings, etc.), and provides easy integration.
+
+Total Amount to Be Offered for Sale: It will be limited to 80.000.00 units and will not be printed in any way.
+
+TSMGCOİN_CHANEL
+https://t.me/tsmgcoin_channel
+
+
+TSMGCOİN_chanel
+https://t.me/tsmgcoin_chanel
+
+https://twitter.com/TsmgCoin?s=09
+
+
+ 
+
+TSMGCOIN WORK
+is an infrastructure that offers a set of standards and solutions for physical and digital consumer goods to promote transparency, circularity, and new forms of responsible production and consumption. TSMGCOIN is the next creative project of ERC-20 and a network dedicated to taking blockchain beyond DeFi.
+TSMGCOİN WORK token (TSMG) is an TRC-20 asset that empowers community governance of the Project. Holders of tokens will be able to debate, propose, and vote on all changes to the Support of this standard guarantees the compatibility of the token with third-party services (wallets, exchanges, listings, etc.), and provides easy integration.
+
+TSMGCOIN@TSMGCOIN.COM
+
+TRONSCAN TSMGCOINWORK
+
+In no case will the ico sale be pre-sale
+0
+Days
+
+0
+Hours
+
+00
+Minutes
+
+00
+Seconds
+
+
+
+
+
+Total Amount to Be Offered for Sale: It will be limited to 80.000.00 units and will not be printed in any way.
+
+
+Tsmgcoin is a block chain based marketplace
+Automatic matching of buyers & sellers via unique artificial intelligence approach.
+With the blockchain innovation of technological superiority, electronic transactions are made easier, faster, cheaper but more secure. If banks can be robbed or declared bankrupt, cryptocurrencies, crypto exchanges and wallet developers can also steal. When you do this in the crypto industry, the serial codes of each traded crat unit are saved and remain in your crypto wallet. Hackers use hardware wallets to protect their caches. TSMG serial codes (TRC-20) can now be stored indefinitely
+
+
+https://tronscan.org/#/token20/TXvXPKRcETtraf94wiweokxj4p4Tt6kKdH
+
+
+
+
+// 0.5.1-c8a2
+// Enable optimization
+pragma solidity ^0.5.0;
+
+import "./ERC20.sol";
+import "./ERC20Detailed.sol";
+
+/**
+ * @title SimpleToken
+ * @dev Very simple ERC20 Token example, where all tokens are pre-assigned to the creator.
+ * Note they can later distribute these tokens as they wish using `transfer` and other
+ * `ERC20` functions.
+ */
+contract Token is ERC20, ERC20Detailed {
+
+    /**
+     * @dev Constructor that gives msg.sender all of existing tokens.
+     */
+    constructor () public ERC20Detailed("TSMGCOINWORK", "TSMG", 18) {
+        _mint(msg.sender, 80000000 * (10 ** uint256(decimals())));
+    }
+}
